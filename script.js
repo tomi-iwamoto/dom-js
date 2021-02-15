@@ -117,3 +117,14 @@ bye.classList.toggle('goodbye');
 
 //You can add a boolean value -- it will automatically remove it if we pass false, if we pass true it will add it
 bye.classList.toggle('goodbye', true);
+
+
+
+
+
+//USING QUERY SELECTORS
+
+//this creates a nodelist 
+let para = document.querySelectorAll('p');
+//This makes the nodelist into an ARRAY
+let para_array = Array.from(para);
